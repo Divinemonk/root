@@ -1,6 +1,8 @@
 # R00T GUIDES
 > procedures to root specific devices
 
+The "root" repository provides comprehensive guides for rooting specific Android devices, offering a centralized resource for users to share and access knowledge on the rooting process. Contribute your expertise to help the community enhance device customization possibilities.
+
 <br>
 
 ## Devices
