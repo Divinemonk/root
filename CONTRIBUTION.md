@@ -1,34 +1,38 @@
 # Contribution Guidelines
 
-Thank you for considering contributing to our project! We appreciate your efforts in sharing your knowledge. Please follow the guidelines below to contribute:
+Thank you for your interest in contributing to our project! Follow the steps below to contribute:
+
+<br>
 
 ## Contributing to Root Guides
 
-If you have successfully rooted any device and would like to share the steps with the community, follow these steps:
+### 1. Fork the Repository
+- Click the "Fork" button at the top right of [this repository](https://github.com/divinemonk/root) to create your copy.
 
-1. Fork this repository to your GitHub account.
+### 2. Clone the Repository
+- Clone the repository to your local machine:
+```bash
+git clone https://github.com/your-username/root.git
+```
 
-2. Clone the forked repository to your local machine:
-   ```bash
-   git clone https://github.com/divinemonk/root
-Create a new branch for your contribution:
-
-bash
-Copy code
+### 3. Create a New Branch
+- Create a new branch for your contribution:
+```bash
 git checkout -b feature/device-rooting
-In the root directory of the repository, create a new file with the following naming convention:
+```
 
-Copy code
-devices/{company}/{device_name}_{android_version}.md
-Replace {company}, {device_name}, and {android_version} with the relevant information. For example, xiaomi/redmi_note_11_android_12.md.
+### 4. Add Your Root Guide
+- In the `devices` directory, create a new folder for the rooted device. The folder name should include the manufacturer, model, and Android version. For example:
+```bash
+devices/xiaomi/redmi_note_11_android_12
+```
+- Inside the folder, create a Markdown file following this structure:
 
-Add the rooting steps in Markdown format to the file you created. Use the following template:
-
-markdown
-Copy code
-# Root Guide for {Device Name} running Android {Android Version}
+```markdown
+# Root Guide for Redmi Note 11 running Android 12
 
 ## Prerequisites
+
 - List any prerequisites or requirements for the rooting process.
 
 ## Steps
@@ -38,24 +42,30 @@ Copy code
 3. ...
 
 ## Additional Notes
+
 - Any additional information or troubleshooting steps.
-Save the file.
+```
 
-Commit your changes with a meaningful commit message:
+### 5. Commit Your Changes
+- Save and commit your changes:
+```bash
+git add devices/xiaomi/redmi_note_11_android_12/redmi_note_11_android_12.md
+git commit -m "Add rooting steps for Redmi Note 11 on Android 12"
+```
 
-bash
-Copy code
-git add devices/{company}/{device_name}_{android_version}.md
-git commit -m "Add rooting steps for {Device Name} running Android {Android Version}"
-Push your changes to your GitHub repository:
-
-bash
-Copy code
+### 6. Push Your Changes
+- Push your changes to your forked repository:
+```bash
 git push origin feature/device-rooting
-Create a pull request from your forked repository to the original repository.
+```
 
-In the pull request description, provide a brief summary of the rooting steps and any additional information.
+### 7. Create a Pull Request
+- Open a pull request on [the original repository](https://github.com/divinemonk/root). Provide a clear title and description.
 
-Wait for the maintainers to review your contribution. You may be asked to make changes or provide more details.
+### 8. Await Review
+- Wait for the maintainers to review your pull request. Be responsive to feedback.
 
-Thank you for contributing! Your knowledge sharing helps the community grow.
+### 9. Stay Engaged
+- Collaborate during the review process. Your contribution is appreciated!
+
+Thank you for making our root guides better!
