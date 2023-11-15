@@ -1,5 +1,5 @@
 # R00T GUIDES
-> procedures to root specific devices
+> Disclaimer: Rooting may void device warranties and pose risks. Follow guides at your own discretion; the repository and contributors are not responsible for any potential issues arising from the rooting process.
 
 The "root" repository provides comprehensive guides for rooting specific Android devices, offering a centralized resource for users to share and access knowledge on the rooting process. Contribute your expertise to help the community enhance device customization possibilities.
 
