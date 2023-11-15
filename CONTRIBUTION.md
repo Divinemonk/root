@@ -7,12 +7,12 @@ Thank you for your interest in contributing to our project! Follow the steps bel
 ## Contributing to Root Guides
 
 ### 1. Fork the Repository
-- Click the "Fork" button at the top right of [this repository](https://github.com/divinemonk/root) to create your copy.
+- Click the "Fork" button at the top right of [this repository](https://github.com/Divinemonk/root_guides) to create your copy.
 
 ### 2. Clone the Repository
 - Clone the repository to your local machine:
 ```bash
-git clone https://github.com/your-username/root.git
+git clone https://github.com/your-username/root_guides.git
 ```
 
 ### 3. Create a New Branch
@@ -60,7 +60,7 @@ git push origin feature/device-rooting
 ```
 
 ### 7. Create a Pull Request
-- Open a pull request on [the original repository](https://github.com/divinemonk/root). Provide a clear title and description.
+- Open a pull request on [the original repository](https://github.com/divinemonk/root_guides). Provide a clear title and description.
 
 ### 8. Await Review
 - Wait for the maintainers to review your pull request. Be responsive to feedback.
